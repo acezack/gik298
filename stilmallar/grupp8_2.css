@@ -1,0 +1,88 @@
+/* Stilmall för gruppen */
+html {
+    
+    background-color: #fff;
+    font-size: 32px;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 0 0;
+    
+}
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+header {    
+
+    border-bottom: 2px solid gray;
+    font-size: 0.65rem;
+}
+nav {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.65rem;
+}
+
+
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;    
+}
+li.nav {
+    float: left;
+}
+li.nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: solid #bbb 1px;
+}
+li.nav a:hover{
+    background-color: #111;
+}
+
+
+
+main {
+    padding: 5px 30px;
+    font-size: 0.75rem;
+}
+
+footer {
+    border-top: 2px solid gray;
+}
+
+
+
+ul.footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.footer{
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    /*float: left;*/
+}
