@@ -1,1 +1,89 @@
-/* Stilmall för Förnamn Efternamn 1 */
+html {    
+    background-color: rgb(0, 0, 0);
+    font-size: 16px;
+    color: rgb(200, 200, 200);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(200, 200, 200);
+    border-left: solid rgb(0, 29, 0);
+    border-right: solid rgb(0, 29, 0);
+    border-bottom: solid rgb(0, 29, 0);
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+header nav ul li a {
+    float: left;
+    display: block;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: solid rgb(0, 29, 0);
+}
+header nav ul li a:hover {
+    background-color: #111;
+}
+.displayNoStyle {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.split {
+    padding: 0;
+    margin: 0;
+    max-width: 396px;
+    height: 230px;
+    overflow-x: hidden;
+    text-align: center;
+    border: solid rgb(0, 29, 0);
+    float: left;
+}
+.left {
+    background-color: #111;
+}
+.center {
+    background-color: #111;
+    border-left: none;
+}
+.right {
+    background-color: #111;
+    border-left: none;
+}
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    margin: 10px;
+    text-align: center;
+}
+footer {
+    left: 50%;
+    transform: translate(-50%);
+    position: fixed;
+    bottom: 0px;
+}
+footer div {
+    max-width: 1200px;
+}
