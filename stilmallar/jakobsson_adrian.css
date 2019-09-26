@@ -1,6 +1,6 @@
 html {    
     background-color: rgb(0, 0, 0);
-    font-size: 16px;
+    font-size: 100%;
     color: rgb(200, 200, 200);
     max-width: 1200px;
     margin: 0 auto;
@@ -39,6 +39,12 @@ header nav ul li a {
 }
 header nav ul li a:hover {
     background-color: #111;
+}
+main>p, main>h2{
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
 }
 .displayNoStyle {
     list-style: none;
