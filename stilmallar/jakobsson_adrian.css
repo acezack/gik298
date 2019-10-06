@@ -28,89 +28,49 @@ header nav ul {
 header nav ul li a {
     float: left;
     display: block;
-    color: rgb(200, 200, 200);
     margin: 0;
     padding: 14px 16px;
+    color: rgb(200, 200, 200);
     text-decoration: none;
+    font-weight: bold;
     border-right: solid rgb(0, 29, 0);
 }
 header nav ul li a:hover {
-    background-color: #111;
+    background-color: #555;
 }
 img {
-    height: 2rem;    
+    max-width: 300px;
+    width: 50vw;
 }
 main>p, main>h2 {
     width: 70vw;
     margin: auto;
     margin-bottom: 10px;
 }
-.center {
-    margin: 0 auto;
+main a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(200, 200, 200);
+    background-color: #333;
 }
-.greenRoundedBorder {    
+main a:hover {
+    background-color: #555;
+}
+.centralFlex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.movingItems {    
     border: solid rgb(0, 29, 0);
     border-radius: 3px;
-}
-/*  Moves all boxes next to eachother. */
-@media only screen and (min-width: 1251px) {
-    .firstBox {
-        display: inline-block;
-        width: 400px;
-        margin-left: 0;
-        padding-bottom: 10px;
-    }
-    .secondBox, .thirdBox {
-        display: inline-block;
-        width: 400px;
-        margin-left: 10px;
-        padding-bottom: 10px;
-    }
-}
-/*  Moves first and second boxes next 
-    to each other and third box centered 
-    below them. */
-@media only screen and (max-width: 1250px) {
-    .firstBox {
-        left: -207.5px;
-        width: 400px;
-        margin: 0 auto 10px;
-        padding: 0 0 10px;
-        position: relative;
-    }
-    .secondBox {
-        left: 207.5px;
-        transform: translateY(-229.833px);
-        width: 400px;
-        margin: 0 auto 10px;
-        padding: 0 0 10px;
-        position: relative;
-    }
-    .thirdBox {
-        width: 400px;
-        transform: translateY(-229.833px);
-        margin: 0 auto 10px;
-        padding: 0 0 10px;
-        position: relative;
-    }
-}
-/*  Sets box-width to fixed 400px
-    and removes transform and translate. */
-@media only screen and (max-width: 850px) {
-    .firstBox, .secondBox, .thirdBox {
-        width: 400px;
-        left: initial;
-        transform: initial;
-    }    
-}
-/*  Sets box-width to 90vw. */
-@media only screen and (max-width: 400px) {
-    .firstBox, .secondBox, .thirdBox {
-        width: 90vw;
-    }
+    width: 400px;
+    margin: 10px;
+    padding-bottom: 15px;
 }
 h1, p {
-    margin: 10px;
+    margin: 10px 10px 15px 10px;
 }
 footer {
     width: 100vw;
